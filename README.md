@@ -1,50 +1,98 @@
-# Welcome to your Expo app 👋
+⚡️ Sobre el Proyecto
+BUSCAPOLO es una aplicación móvil multiplataforma (iOS y Android) diseñada para ser la herramienta definitiva de gestión del flujo de trabajo para electricistas y profesionales de servicios técnicos.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Esta aplicación fue creada con el objetivo de optimizar la organización de trabajos, el seguimiento de clientes y la gestión financiera, eliminando la necesidad de recurrir a papel o a múltiples herramientas inconexas.
 
-## Get started
+✨ Características Principales
+BUSCAPOLO centraliza las siguientes funcionalidades esenciales en una sola aplicación:
 
-1. Install dependencies
+Gestión Integral de Clientes y Trabajos:
 
-   ```bash
-   npm install
-   ```
+Creación y administración de clientes.
 
-2. Start the app
+Programación detallada de trabajos (fecha, hora, artículos, costos).
 
-   ```bash
-   npx expo start
-   ```
+Aviso automático y personalizado vía WhatsApp al cliente sobre sus citas.
 
-In the output, you'll find options to open the app in a
+Organización Avanzada con Calendario:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Vista interactiva para visualizar trabajos programados por día/semana.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Funcionalidad para cambiar el estado del trabajo (Realizado/No Realizado).
 
-## Get a fresh project
+Opciones para reprogramar o eliminar citas con notificación al cliente.
 
-When you're ready, run:
+Control Financiero y Operativo (Dashboard):
 
-```bash
-npm run reset-project
-```
+Panel de control con métricas clave (trabajos realizados, ingresos por mano de obra del mes).
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Herramienta vital para la toma de decisiones financieras.
 
-## Learn more
+Persistencia de Datos:
 
-To learn more about developing your project with Expo, look at the following resources:
+Almacenamiento de la información localmente en el dispositivo para garantizar la disponibilidad offline y la seguridad.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Función de exportación de datos para realizar copias de seguridad (backups) de la información de manera sencilla.
 
-## Join the community
+🛠️ Stack Tecnológico
+La aplicación BUSCAPOLO fue desarrollada utilizando las siguientes tecnologías:
 
-Join our community of developers creating universal apps.
+Componente	Tecnología	Descripción
+Framework	React Native	Desarrollo móvil multiplataforma para iOS y Android desde una única base de código.
+Lenguaje	JavaScript / TypeScript	Lenguaje principal de desarrollo.
+Persistencia	 AsyncStorage /	Almacenamiento de datos de forma local en el dispositivo.
+Mensajería	Integración para avisos automáticos al cliente.
+🚀 Instalación y Ejecución Local
+Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Prerrequisitos
+Asegúrate de tener instalado:
+
+Node.js (versión recomendada: [ej: v18.x])
+
+npm o Yarn ([ej: yarn])
+
+React Native CLI y el entorno de desarrollo configurado para iOS y/o Android.
+
+Pasos
+Clonar el repositorio:
+
+Bash
+
+git clone https://www.youtube.com/watch?v=eQMcIGVc8N0
+cd buscapolo
+Instalar dependencias:
+
+Bash
+
+npm install
+# o si usas Yarn:
+# yarn install
+Ejecutar la aplicación:
+
+Para Android:
+
+Bash
+
+npx react-native run-android
+Para iOS (requiere macOS):
+
+Bash
+
+# Ir a la carpeta ios e instalar pods
+cd ios && pod install && cd ..
+npx react-native run-ios
+👨‍💻 Contribuciones
+Si deseas mejorar BUSCAPOLO, sigue los estándares de código y envía un Pull Request. ¡Toda contribución es bienvenida!
+
+Haz un Fork del proyecto.
+
+
+👤 Autor
+Agustin Pascual Marcos
+
+LinkedIn: www.linkedin.com/in/agustin-pascual-marcos
+
+
+
+GitHub: @TuUsuarioGitHub
