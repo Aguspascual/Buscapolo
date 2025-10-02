@@ -49,7 +49,7 @@ Aplicación móvil multiplataforma (iOS, Android y Web) construida con Expo y Re
 1) Clonar el repositorio
 
 ```bash
-git clone https://github.com/<tu-usuario>/buscapolo.git
+git clone https://github.com/Aguspascua/Buscapolo.git
 cd buscapolo
 ```
 
